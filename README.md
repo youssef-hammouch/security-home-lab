@@ -1,2 +1,20 @@
-# security-home-lab
-Virtual security lab with firewall, attacks and SIEM detection
+# Security Home Lab
+
+A virtual lab to practice attack and detection.
+
+## Goal
+Attack my own machines, detect the attacks with a SIEM, and fix the weaknesses.
+
+## Tools
+VMware, OPNsense, Kali Linux, Ubuntu, Windows 7, Wazuh
+
+## Progress
+
+### 1. Firewall setup
+OPNsense separates an "inside" and an "outside" network.
+
+![OPNsense dashboard](Screenshots/01-opnsense-dashboard.png)
+The firewall is running and managing the inside network.
+
+![Ubuntu internet test](Screenshots/02-ubuntu-ping-internet.png)
+Ubuntu reaches the internet through the firewall.
