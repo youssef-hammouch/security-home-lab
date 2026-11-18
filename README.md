@@ -18,3 +18,8 @@ The firewall is running and managing the inside network.
 
 ![Ubuntu internet test](Screenshots/02-ubuntu-ping-internet.png)
 Ubuntu reaches the internet through the firewall.
+### 2. SIEM setup
+Wazuh monitors the inside network.
+
+![Wazuh dashboard](Screenshots/04-wazuh-dashboard.png)
+The Wazuh dashboard is running with no errors.
