@@ -27,3 +27,6 @@ Kali is on a separate outside network. A firewall rule allows it to reach the in
 Wazuh monitors the inside network.
 
 ![Wazuh dashboard](Screenshots/04-wazuh-dashboard.png)
+
+![Wazuh agent active](Screenshots/05-wazuh-agent-active.png)
+The Ubuntu machine is enrolled as a Wazuh agent and sends its logs to the SIEM.
